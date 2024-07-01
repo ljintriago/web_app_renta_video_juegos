@@ -36,10 +36,10 @@
     </form>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i><img src="imagenes/carrito-de-compras.png" alt="carrito-compra"></a>
+        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i><img src="imagenes/carrito-de-compras.svg" alt="carrito-compra"></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Iniciar sesión</a>
+        <a class="nav-link" id='abrirSesion' href="login.html">Iniciar sesión</a>
       </li>
     </ul>
   </div>
@@ -86,5 +86,28 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="javascript/script.js"></script>
 
+<script>
+
+  const sesionIni= sessionStorage.getItem('email');
+  if(sesionIni != null )
+  {
+  document.getElementById("abrirSesion").innerHTML ="Cerrar Sesion";
+  }
+  
+  
+  
+  document.getElementById('abrirSesion').onclick = () => {
+  
+  if(sesionIni != null )
+  {
+  document.getElementById("abrirSesion").innerHTML ="Cerrar Sesion";
+  sessionStorage.removeItem('email');
+  }
+  
+  
+  }
+  
+  
+  </script>
 </body>
 </html>

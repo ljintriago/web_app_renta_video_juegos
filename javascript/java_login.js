@@ -48,13 +48,10 @@ form.onsubmit = (e)=>{
    sessionStorage.setItem('email', ema);
 
   
-   window.location.href = "login1.html";
+   window.location.href = "pagina.html";
    
    
     
-/*
-  
-    document.getElementById('precio').textContent  = localStorage.getItem('email');*/
   }
 }
 
