@@ -5,7 +5,7 @@ body {
 .btn-neon {
   background-color: #39FF14; 
   border-color: #39FF14; 
-  color: #000000; 
+  color: #ffffff; 
 }
 .btn-neon:hover {
   background-color: #2ecc40; 
@@ -41,4 +41,10 @@ p {
   display: none;
   margin: 0 auto;
   max-width: 300px;
+}
+
+.card {
+  display: block;
+  margin: 0 auto;
+  text-align: center; 
 }
