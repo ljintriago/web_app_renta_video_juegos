@@ -1,0 +1,44 @@
+body {
+  background-color: #000000; 
+
+}
+.btn-neon {
+  background-color: #39FF14; 
+  border-color: #39FF14; 
+  color: #000000; 
+}
+.btn-neon:hover {
+  background-color: #2ecc40; 
+  border-color: #2ecc40;
+}
+.btn-pink {
+  background-color: #FF1493;
+  border-color: #FF1493; 
+  color: #FFFFFF; 
+}
+.btn-blue {
+  color: #1E90FF; 
+}
+.jumbotron {
+  background-color: #1E90FF;
+  color: #FFFFFF; 
+}
+
+h5 {
+    color: #000000;
+}
+
+p {
+    color: #000000;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  display: none;
+  margin: 0 auto;
+  max-width: 300px;
+}
