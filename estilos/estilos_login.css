@@ -41,12 +41,12 @@ a {
 .h3{
   color: antiquewhite;
 }
+/*
 .logoimg{
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
 }
-
-
+*/
 ::selection{
   color: #fff;
   background: #00C9A7;
