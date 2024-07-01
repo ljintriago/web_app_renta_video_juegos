@@ -109,3 +109,8 @@ p {
 #product-genre{
   color: #FFFFFF;
 }
+
+.product-detail {
+  margin-bottom: 15px;
+  text-align: justify;
+}
