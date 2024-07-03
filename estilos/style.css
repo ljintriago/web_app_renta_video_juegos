@@ -194,7 +194,90 @@ p {
   margin-left: 50px;
 }
 
+.cart-detail p{
+  color: #1E90FF;
+  align-self: flex-end;
+  margin-right: 50px;
+  font-weight: bolder;
+}
+
 .btn-compra{
   align-self: flex-end;
   margin-right: 50px;
+}
+
+.image-detalle-compra{
+  height: 150px;
+  margin-right: 50px;
+}
+
+.carrito-item-compra{
+  display: flex;
+  padding: 5px 32px 5px 32px;
+  align-items: center;
+}
+
+.carrito-item-compra p{
+  color: #FFFFFF;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.btn-container{
+  width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-cart-item-compras p{
+  width: 300px;
+}
+
+.btn-container button{
+    border-radius: 60px;
+    color: white;
+    background-color: #FF1493;
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin: 5px;
+}
+
+
+
+.btn-change-detail:hover{
+  background-color: #be126e;
+}
+
+.btn-change-detail:active{
+  background-color: #FF1493;
+}
+
+.container-final{
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-final p{
+  color: #1E90FF;
+  font-size: larger;
+}
+
+.circle {
+  margin: 16px;
+  width: 100px;
+  height: 100px;
+  background-color: #39FF14;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14, 0 0 30px #39FF14;
+}
+
+.circle i {
+  color: white;
+  font-size: 2em;
 }

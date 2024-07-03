@@ -126,9 +126,15 @@ function actualizarCarrito() {
             contadorCarrito = contadorCarrito + arrayConvertido[i].quan;
         }
 
-        carritoNot.innerHTML += `<span id="notif" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        const notif =  document.getElementById('notif');
+        if(notif === null){
+            carritoNot.innerHTML += `<span id="notif" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
             ${contadorCarrito}
-        </span>`;
+            </span>`;
+        }
+        else{
+            notif.innerText = contadorCarrito;
+        }
 
         const popoverCarrito = bootstrap.Popover.getOrCreateInstance('#btn-carrito');
 

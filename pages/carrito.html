@@ -14,10 +14,6 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <form id="searchForm" class="form-inline ml-auto">
-            <input id="searchInput" class="form-control mr-sm-2" type="search" placeholder="Buscar juegos..." aria-label="Search" name="q">
-            <button class="btn btn-neon my-2 my-sm-0" type="submit">Buscar</button>
-          </form>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item carrito">
               <a id="btn-carrito" class="nav-link" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-custom-class="custom-carrito" data-bs-html="true" data-bs-title="Carrito" data-bs-content="<a class='btn btn-neon' href='#'>Ver el carrito</a>"><i class="fas fa-shopping-cart"></i><img src="../imagenes/carrito-de-compras.svg" alt="carrito-compra"></a>
@@ -36,7 +32,8 @@
                 <div id="container-detalle">
                     
                 </div>
-                <a class="btn btn-neon btn-compra" href="./pages/checkout.html">Comprar</a>
+                <p id="total">Total: </p>
+                <a id="btn-comprar" class="btn btn-neon btn-compra" href="./checkout.html">Comprar</a>
             </div>
         </div>
     </div>
