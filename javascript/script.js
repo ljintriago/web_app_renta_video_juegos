@@ -233,3 +233,31 @@ function actualizarCarrito() {
     }
 }
 
+
+
+
+function sesion(){
+    
+	const sesionIni= sessionStorage.getItem('email');
+  if(sesionIni != null )
+  {
+  document.getElementById("abrirSesion").innerHTML ="Cerrar Sesion";
+  }
+  
+  
+  
+  document.getElementById('abrirSesion').onclick = () => {
+  
+  if(sesionIni != null )
+  {
+  document.getElementById("abrirSesion").innerHTML ="Cerrar Sesion";
+  sessionStorage.removeItem('email');
+  }
+  
+  
+  }
+  
+}
+
+sesion();
+

@@ -25,7 +25,7 @@
         <a id="btn-carrito" class="nav-link" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-custom-class="custom-carrito" data-bs-html="true" data-bs-title="Carrito" data-bs-content="<a class='btn btn-neon' href='./pages/carrito.html'>Ver el carrito</a>"><i class="fas fa-shopping-cart"></i><img src="imagenes/carrito-de-compras.svg" alt="carrito-compra"></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id='abrirSesion' href="login.html">Iniciar sesión</a>
+        <a class="nav-link" id="abrirSesion" href="login.html">Iniciar sesión</a>
       </li>
     </ul>
   </div>
@@ -70,29 +70,5 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="./javascript/script.js"></script>
-
-<script>
-
-  const sesionIni= sessionStorage.getItem('email');
-  if(sesionIni != null )
-  {
-  document.getElementById("abrirSesion").innerHTML ="Cerrar Sesion";
-  }
-  
-  
-  
-  document.getElementById('abrirSesion').onclick = () => {
-  
-  if(sesionIni != null )
-  {
-  document.getElementById("abrirSesion").innerHTML ="Cerrar Sesion";
-  sessionStorage.removeItem('email');
-  }
-  
-  
-  }
-  
-  
-  </script>
 </body>
 </html>
